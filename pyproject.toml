@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fine-tune-prep"
+version = "0.1.0"
+description = "Validate, inspect, split and convert chat JSONL datasets before fine-tuning an LLM"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Aman Elugam" }]
+
+[project.scripts]
+fine-tune-prep = "fine_tune_prep:main"

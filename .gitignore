@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+dist/
+.pytest_cache/
+train.jsonl
+val.jsonl
